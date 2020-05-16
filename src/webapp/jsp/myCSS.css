@@ -1,0 +1,105 @@
+.button {
+    width: 40%;
+    size: 50px 50px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: left;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #1a47c4;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {
+    background-color: #cfba1b
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+p.round3 {
+    border: 5px #1a47c4;
+    width: 80%;
+    font-size: 45px;
+    text-decoration-color: white;
+    text-align: center;
+    color: #fff;
+    background-color: #1a47c4;
+
+    border-radius: 12px;
+}
+
+
+.buttonStart {
+    width: 20%;
+    size: 50px 50px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #1a47c4;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {
+    background-color: #cfba1b
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+    left: 0;
+    background-color: #111;
+}
+
+/* Control the right side */
+.right {
+    right: 0;
+    background-color: red;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+    width: 150px;
+    border-radius: 50%;
+}
